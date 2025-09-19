@@ -1,6 +1,19 @@
 {
   "version": 2,
+  "functions": {
+    "api/gemini-proxy.ts": {
+      "runtime": "nodejs20.x",
+      "maxDuration": 30,
+      "memory": 1024
+    },
+    "api/gemini-proxy.js": {
+      "runtime": "nodejs20.x",
+      "maxDuration": 30,
+      "memory": 1024
+    }
+  },
   "routes": [
-    { "src": "/api/gemini-proxy", "dest": "/api/gemini-proxy.ts" }
+    { "src": "/api/gemini-proxy", "dest": "/api/gemini-proxy.ts" },
+    { "src": "/api/gemini-2.5-pro", "dest": "/api/gemini-2.5-pro.ts" }
   ]
 }
