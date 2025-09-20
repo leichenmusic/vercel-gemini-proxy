@@ -2,6 +2,7 @@
   "version": 2,
   "routes": [
     { "src": "/api/gemini-proxy", "dest": "/api/gemini-proxy.ts" },
-    { "src": "/api/gemini-2.5-pro", "dest": "/api/gemini-2.5-pro.ts" }
+    { "src": "/api/gemini-2.5-pro", "dest": "/api/gemini-2.5-pro.ts" },
+    { "src": "/api/gemini-2.5-flash", "dest": "/api/gemini-2.5-flash.ts" }
   ]
 }
