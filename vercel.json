@@ -10,6 +10,11 @@
       "runtime": "nodejs20.x",
       "maxDuration": 30,
       "memory": 1024
+    },
+    "api/gemini-2.5-pro.ts": {
+      "runtime": "nodejs20.x",
+      "maxDuration": 30,
+      "memory": 1024
     }
   },
   "routes": [
